@@ -27,6 +27,8 @@ jobs:
         pytohn-version: 3.12
     - name: Test
       run: |
-        node --version
-        python --version
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Broser init
+      run: rfbrowser init
     
