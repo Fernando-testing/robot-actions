@@ -25,4 +25,8 @@ jobs:
       uses: actions/setup-python@v5.6.0
       with:
         pytohn-version: 3.12
+    - name: Test
+      run: |
+        node --version
+        python --version
     
